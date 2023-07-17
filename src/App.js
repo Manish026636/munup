@@ -7,7 +7,7 @@ function App() {
     <div className="flex">
     <Navbar />
     <div className="flex-grow">
-      <RCDashboard/>
+      <MDashboard/>
     </div>
   </div>
   );
