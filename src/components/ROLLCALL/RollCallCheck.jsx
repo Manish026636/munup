@@ -7,7 +7,7 @@ import RCPagination from './RCPagination'
 const RollCallCheck = () => {
     return (
         <>
-            <div class="bg-white h-[90vh] relative   border-t-[3vh] border-[#F0F0F0] border-t-[#181818] text-center   rounded-3xl w-2/5 p-4">
+            <div className="bg-white h-[90vh] relative border-t-[3vh] border-[#F0F0F0] border-t-[#181818] text-center rounded-3xl w-2/5 p-4 flex flex-col justify-center items-center">
                 <h1 className='text-2xl text-white font-semibold absolute top-0 left-0 right-0 mx-auto bg-[#181818] pb-6 '>Roll Call</h1>
 
                 <div className='flex justify-center gap-4 mt-16 items-center'>
@@ -18,19 +18,17 @@ const RollCallCheck = () => {
                     <div className='lg:mt'>
                         <Checkbox id="ripple-off" className="border-[#00bcd4] bg-[#FFFFFF]" color="cyan" style={{ transform: 'scale(1.4)' }} />
                         <label className='text-lg text-[#555555] font-semibold'>All Present & Voting</label>
-
                     </div>
                 </div>
-                <div className='mx-4 mt-4'>
-                <RCSearch/>
+                <div className='w-full mx-4 mt-4'>
+                    <RCSearch/>
                 </div>
                 <div className='mx-4 mt-2'>
-                <RCCountry/>
+                    <RCCountry/>
                 </div>
                 <div className='mx-4 mt-6'>
-                <RCPagination/>
+                    <RCPagination/>
                 </div>
-
             </div>
         </>
     )
