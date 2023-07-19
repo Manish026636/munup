@@ -6,7 +6,7 @@ const GSLDashboard = () => {
     return (
         <div className='mx-28'>
             <div className="flex flex-wrap gap-8 mt-6 mx-6 ">
-                <div className="w-full  bg-[#E7EBEA] h-40 rounded-xl ">
+                <div className="w-full  bg-[#E7EBEA] h-48 rounded-xl ">
 
                     <h1 className='ml-4 text-center mt-8  text-4xl gslhead text-[#343434] font-extrabold'>India the new Super Power</h1>
                     <div className='text-center mt-4 '>
@@ -22,7 +22,7 @@ const GSLDashboard = () => {
                     <button class="h-10 px-5 m-2 text-white font-semibold bg-[#37D3AD] rounded-xl hover:bg-gray-700">Completed</button>
 
                 </div>
-                <div class="w-full md:w-7/12 m-2">
+                <div class="w-full mt-2">
                     <GSLSearch />
                 </div>
             </div>
