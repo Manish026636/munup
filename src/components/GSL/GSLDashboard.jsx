@@ -1,7 +1,8 @@
 import React from 'react'
 import GSLSearch from './GSLSearch';
 import GSLCountry from './GSLCountry';
-
+import GSLTimeModal from './GSLModals/GSLTimeModal';
+import AddModal from './GSLModals/GSLAddDelegate/AddModal';
 const GSLDashboard = () => {
     return (
         <div className='mx-28'>
@@ -9,9 +10,9 @@ const GSLDashboard = () => {
                 <div className="w-full  bg-[#E7EBEA] h-48 rounded-xl ">
 
                     <h1 className='ml-4 text-center mt-8  text-4xl gslhead text-[#343434] font-extrabold'>India the new Super Power</h1>
-                    <div className='text-center mt-4 '>
-                    <button class="h-10 px-5 m-2 text-black font-semibold bg-[#F7F7F7] border border-[#9F9F9F] rounded-xl hover:bg-gray-100">Add</button>
-                    <button class="h-10 px-5 m-2 text-black font-semibold bg-[#F7F7F7] border border-[#9F9F9F] rounded-xl hover:bg-gray-100">Time</button>
+                    <div className='flex justify-center items-center text-center mt-4 '>
+                    <AddModal/>
+                    <GSLTimeModal/>
                     </div>
                 </div>
 

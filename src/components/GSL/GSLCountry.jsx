@@ -1,5 +1,5 @@
 import React from 'react';
-
+import TimeFedModal from './TimeFedModal';
 const GSLCountry = () => {
   const data = [
     {
@@ -111,7 +111,10 @@ const GSLCountry = () => {
                   </div>
                 </td>
               <td className="px-6 py-4 text-[#414141] font-semibold text-lg">{item.DelegateName}</td>
-              <td className="px-6 py-2 "><button class=" py-0.5 px-6 text-lg  text-white font-semibold bg-black rounded-xl hover:bg-blue-700"> {item.Onspeech}</button>
+              <td className="px-6 py-2 ">
+            
+              <TimeFedModal/>
+
              </td>
               <td className="flex justify-center items-center gap-4 px-6 py-4">
                 <img src='edit.png' alt='edit' className='w-8 h-8'/>
