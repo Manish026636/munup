@@ -30,7 +30,7 @@ export default function Example() {
                 }}
             >
                 <div className="flex mt-4 justify-center text-center" >
-                    <DialogHeader className="text-2xl text-[#7e7d7d]" >Current Speaker : <div className="flex items-center">
+                    <DialogHeader className="text-2xl gslhead text-[#7e7d7d]" >Current Speaker : <div className="flex items-center">
                         <span className="ml-3 text-[#5E5E5E] font-bold gslhead text-2xl">India </span>&nbsp;
                         <img
                             src='india.png'
