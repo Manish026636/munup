@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const TopicCard = ({ imageSrc, title, country, totalTime, delegateTime }) => {
   return (
-    <div className="lg:px-0 gslhead w-full mt-4 mx-auto">
+    <div className="lg:px-0  gslhead w-full mt-4 mx-auto">
       <div className=" bg-white border-2 border-[#F0F0F0] p-4 rounded-xl">
         <div>
           <div className="flex items-center">
@@ -81,7 +81,7 @@ const MPTopics = () => {
 
   return (
     <>
-      <div className="bg-white overflow-hidden scrollbar-hide h-[90vh] relative border-t-[3vh] border-[#F0F0F0] border-t-[#181818] text-center rounded-3xl w-2/5 p-4 overflow-y-auto overscroll-contain">
+      <div className="bg-white gslhead overflow-hidden scrollbar-hide h-[90vh] relative border-t-[3vh] border-[#F0F0F0] border-t-[#181818] text-center rounded-3xl w-2/5 p-4 overflow-y-auto overscroll-contain">
         <h1 className="text-2xl text-white font-semibold absolute top-0 left-0 right-0 mx-auto bg-[#181818] pb-6">
           Proposed Topics
         </h1>
