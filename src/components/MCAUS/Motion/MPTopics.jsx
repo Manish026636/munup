@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const TopicCard = ({ imageSrc, title, country, totalTime, delegateTime }) => {
   return (
-    <div className="lg:px-0 w-full mt-4 mx-auto">
+    <div className="lg:px-0 gslhead w-full mt-4 mx-auto">
       <div className=" bg-white border-2 border-[#F0F0F0] p-4 rounded-xl">
         <div>
           <div className="flex items-center">

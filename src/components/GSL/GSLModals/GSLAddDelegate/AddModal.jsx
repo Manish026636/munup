@@ -15,7 +15,7 @@ export default function Example() {
 
   return (
     <Fragment>
-      <Button onClick={handleOpen} className="h-10 px-5 m-2 text-black font-semibold bg-[#F7F7F7] border border-[#9F9F9F] rounded-xl hover:bg-gray-100">
+      <Button onClick={handleOpen} className="h-10 gslhead px-5 m-2 text-black font-semibold bg-[#F7F7F7] border border-[#9F9F9F] rounded-xl hover:bg-gray-100">
         Add Delegate
       </Button>
       <Dialog

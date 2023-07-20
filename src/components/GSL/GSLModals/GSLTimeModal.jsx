@@ -14,7 +14,7 @@ export default function Example() {
  
   return (
     <Fragment>
-      <Button onClick={handleOpen} className="h-10 px-5 m-2 text-black font-semibold bg-[#F7F7F7] border border-[#9F9F9F] rounded-xl hover:bg-gray-100">
+      <Button onClick={handleOpen} className="h-10 gslhead px-5 m-2 text-black font-semibold bg-[#F7F7F7] border border-[#9F9F9F] rounded-xl hover:bg-gray-100">
        Set GSL Time
       </Button>
       <Dialog
@@ -28,7 +28,7 @@ export default function Example() {
         style={{ maxWidth: "400px" }}
       >
         <DialogBody >
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="grid grid-cols-1 gslhead md:grid-cols-2 gap-4">
             <div class="mt-4 mx-4">
               <label for="base-input" class="block mb-2 text-md font-bold text-[#555555] dark:text-white">Minutes</label>
               <input type="number" id="base-input" placeholder='Enter Minutes' class="bg-white border border-gray-300 text-gray-900 text-sm rounded-xl focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-500 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" />

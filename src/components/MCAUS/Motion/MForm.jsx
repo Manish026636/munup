@@ -4,7 +4,7 @@ import React from 'react'
 const MForm = () => {
     return (
         <>
-            <div class="bg-white h-[90vh] relative   border-t-[3vh] border-[#F0F0F0] border-t-[#181818]   rounded-3xl w-2/5 p-4">
+            <div class="bg-white gslhead h-[90vh] relative   border-t-[3vh] border-[#F0F0F0] border-t-[#181818]   rounded-3xl w-2/5 p-4">
                 <h1 className='text-2xl text-center text-white font-semibold absolute top-0 left-0 right-0 mx-auto bg-[#181818] pb-6 '>Motion Form</h1>
                 <div class="mt-28 mx-4">
                     <label for="base-input" class="block mb-2 text-md font-bold text-[#555555] dark:text-white">Topic Name</label>

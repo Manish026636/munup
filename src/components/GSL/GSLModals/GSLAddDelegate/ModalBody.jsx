@@ -7,7 +7,7 @@ import Pagination from './Pagination'
 const ModalCountry = () => {
     return (
         <>
-            <div className="bg-white  relative mt-4  border-[#F0F0F0]  text-center rounded-3xl w-full  flex flex-col justify-center items-center">
+            <div className="bg-white gslhead  relative mt-4  border-[#F0F0F0]  text-center rounded-3xl w-full  flex flex-col justify-center items-center">
 
                 <div className='flex justify-center gap-4  items-center'>
                     <div className='lg:mt'>
