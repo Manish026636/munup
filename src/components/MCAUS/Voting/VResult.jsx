@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 const VResult = () => {
   return (
     <>
@@ -84,7 +84,8 @@ const VResult = () => {
           </div>
         </div>
         <div className='mt-12'>
-        <button type="button" class="text-white bg-[#2194FF] hover:bg-blue-800 focus:ring-4  font-bold rounded-lg text-lg px-8 py-2 mr-2 mb-2 ">Proceed</button>
+        
+        <Link to="/MCDashboard"><button type="button" class="text-white bg-[#2194FF] hover:bg-blue-800 focus:ring-4  font-bold rounded-lg text-lg px-8 py-2 mr-2 mb-2 ">Proceed</button></Link>
         </div>
       </div>
     </>

@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const TopicCard = ({ imageSrc, title, country, totalTime, delegateTime }) => {
   return (
     <div className="lg:px-0 w-full mt-4 mx-auto">
@@ -30,9 +30,9 @@ const TopicCard = ({ imageSrc, title, country, totalTime, delegateTime }) => {
             </h1>
           </div>
           <div className="flex justify-center gap-6 mt-6 items-center">
-            <button className="bg-[#2194FF] px-4 py-2 text-sm rounded-lg text-white font-bold">
+            <Link to="/VDashboard"><button className="bg-[#2194FF] px-4 py-2 text-sm rounded-lg text-white font-bold">
               Vote
-            </button>
+            </button></Link>
             <button className="bg-[#37D3AD] px-4 py-2 text-sm rounded-lg text-white font-bold">
               Pass
             </button>

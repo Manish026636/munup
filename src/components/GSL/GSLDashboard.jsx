@@ -5,7 +5,7 @@ import GSLTimeModal from './GSLModals/GSLTimeModal';
 import AddModal from './GSLModals/GSLAddDelegate/AddModal';
 const GSLDashboard = () => {
     return (
-        <div className='mx-28'>
+        <div className='mx-28 gslhead'>
             <div className="flex flex-wrap gap-8 mt-6 mx-6 ">
                 <div className="w-full  bg-[#E7EBEA] h-48 rounded-xl ">
 
