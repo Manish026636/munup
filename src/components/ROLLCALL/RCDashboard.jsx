@@ -5,7 +5,7 @@ import RollCallResult from './RCResult'
 const RCDashboard = () => {
     return (
         <div>
-            <div class="flex gslhead flex-col gap-8 h-auto w-auto rounded-3xl mx-28 bg-[#F7F7F7] mt-8 p-4  md:flex-row justify-center items-center">
+        <div className="flex p-2  flex-col lg:mt-10 lg:mx-40   lg:p-0 md:flex-row gap-4">
                 <RollCallCheck/>
                 <RollCallResult/>
             </div>

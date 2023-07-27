@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Common/Navbar';
+import Sidebar from './components/Common/Sidebar';
 import Dashboard from './components/Chairperson/Dashboard';
 import MCDashboard from './components/MCAUS/MCDashboard';
 import GSLDashboard from './components/GSL/GSLDashboard';
@@ -9,32 +9,13 @@ import RCDashboard from './components/ROLLCALL/RCDashboard';
 import MRegister from './components/MCAUS/Motion/MRegister';
 import MDashboard from './components/MCAUS/Motion/MDashboard';
 import VDashboard from './components/MCAUS/Voting/VDashboard';
+import Layout from './components/Common/Layout';
 function App() {
   return (
-    <div className="flex">
-      <BrowserRouter>
-    <Navbar />
     
-    <div className="flex-grow">
-    <Routes>
-    <Route path='/' element={<Dashboard/>}></Route>
-    <Route path='/RCDashboard' element={<RCDashboard/>}></Route>
-    <Route path='/GSLDashboard' element={<GSLDashboard/>}></Route>
-    <Route path='/MCDashboard' element={<MCDashboard/>}></Route>
-    <Route path='/MRegister' element={<MRegister/>}></Route>
-    <Route path='/MDashboard' element={<MDashboard/>}></Route>
-    <Route path='/VDashboard' element={<VDashboard/>}></Route>
-
-
-
-
-
-
-      </Routes>
-    </div>
-    
-    </BrowserRouter>
-  </div>
+     <>
+     <Layout/>
+     </>
   );
 }
 
