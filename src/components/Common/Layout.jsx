@@ -2,6 +2,10 @@ import React from 'react';
 import Sidebar from './Sidebar';
 import Dashboard from '../Chairperson/Dashboard';
 import RCDashboard from '../ROLLCALL/RCDashboard';
+import MCDashboard from '../MCAUS/MCDashboard';
+import VDashboard from '../MCAUS/Voting/VDashboard';
+import MDashboard from '../MCAUS/Motion/MDashboard';
+import GSLDashboard from '../GSL/GSLDashboard';
 
 const Layout = () => {
     return (
@@ -10,9 +14,9 @@ const Layout = () => {
             <Sidebar/>
 
             {/* Main Content */}
-            <main className="flex-grow ">
+            <main className="flex-grow h-screen ">
                 <div >
-                    <RCDashboard/>
+                    <MCDashboard/>
                 </div>
             </main>
 

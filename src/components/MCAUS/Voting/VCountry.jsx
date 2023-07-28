@@ -18,14 +18,14 @@ const RCCountry = () => {
         <table className="w-full text-sm text-left  text-gray-500 dark:text-gray-400 rounded-xl">
           <thead className="text-sm text-gray-700   bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
-              <th scope="col" className="lg:px-6 px-2 text-xs lg:text-md text-gray-600 py-3">Country</th> {/* Empty th */}
-              <th scope="col" className="lg:px-6 px-2 text-xs lg:text-md text-gray-600 py-3">
+              <th scope="col" className="lg:px-4 px-2 text-xs lg:text-md text-gray-600 py-3">Country</th> {/* Empty th */}
+              <th scope="col" className="lg:px-4 px-2 text-xs lg:text-md text-gray-600 py-3">
                 Favor
               </th>
-              <th scope="col" className="lg:px-6 px-2 text-xs lg:text-md text-gray-600 py-3">
+              <th scope="col" className="lg:px-4 px-2 text-xs lg:text-md text-gray-600 py-3">
                 Against
               </th>
-              <th scope="col" className="lg:px-6 px-2 text-xs lg:text-md  text-gray-600 py-3">
+              <th scope="col" className="lg:px-4 px-2 text-xs lg:text-md  text-gray-600 py-3">
                 Abstain
               </th>
             </tr>
@@ -36,7 +36,7 @@ const RCCountry = () => {
                 key={index}
                 className=" border-b dark:bg-gray-800 dark:border-gray-700"
               >
-                <td className="lg:px-6 px-1 py-1">
+                <td className="lg:px-4 px-1 py-1">
                   <div className="flex items-center">
                     <img
                       src={item.imageUrl}
@@ -46,14 +46,14 @@ const RCCountry = () => {
                     <span className="ml-3 text-[#6F6F6F] font-bold text-md lg:text-lg">{item.label}</span>
                   </div>
                 </td>
-                <td className="lg:px-6 px-1 py-1">
+                <td className="lg:px-4 px-1 py-1">
                   <Checkbox
                     id={item.id}
                     className="border-[#9F9F9F] bg-[#FFFFFF]"
                     style={{ transform: "scale(1.2)" }}
                   />
                 </td>
-                <td className="lg:px-6 px-1 py-1">
+                <td className="lg:px-4 px-1 py-1">
                   <Checkbox
                     id={item.id2}
                     className="border-[#9F9F9F] bg-[#FFFFFF]"
