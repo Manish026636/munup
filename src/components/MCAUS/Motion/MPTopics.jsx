@@ -7,14 +7,14 @@ const TopicCard = ({ imageSrc, proposedBy, topicName, totalTime, delegateTime })
                 <img src={imageSrc} className="rounded-xl" alt={proposedBy} />
             </div>
             <div className="p-4 md:p-6">
-                <span className="block mb-1 lg:text-lg text-xs font-semibold text-blue-600 dark:text-blue-500">
-                    Proposed by: {proposedBy}
+                <span className="block mb-1 lg:text-lg text-xs font-semibold text-black dark:text-blue-500">
+                    Proposed by : <span className='text-blue-600 font-extrabold'>{proposedBy}</span>
                 </span>
                 <h3 className="lg:text-xl font-semibold text-gray-800 dark:text-gray-300 dark:hover:text-white">
-                    Topic Name: {topicName}
+                    Topic Name : {topicName}
                 </h3>
-                <p className="mt-2 text-gray-600">Total time: {totalTime}</p>
-                <p className="mt-2 text-gray-600">Delegate time: {delegateTime}</p>
+                <p className="mt-2 text-gray-700">Total time : {totalTime}</p>
+                <p className="mt-2 text-gray-700">Delegate time : {delegateTime}</p>
             </div>
             <div className="flex border-t border-gray-200 divide-x divide-gray-200 dark:border-gray-700 dark:divide-gray-700">
                 <button className="w-full py-2 px-4 font-semibold inline-flex justify-center items-center gap-2 rounded-bl-xl bg-[#2194FF] text-white shadow-sm align-middle hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-lg sm:p-4 dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800" href="#">
