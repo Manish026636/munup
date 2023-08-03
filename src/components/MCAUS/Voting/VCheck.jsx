@@ -7,7 +7,7 @@ import VPagination from './VPagination'
 const VCheck = () => {
     return (
         <>
-        <div className="bg-white  pb-4  shadow-lg rounded-3xl  w-full md:w-1/2">
+        <div className="bg-white  pb-4  shadow-lg rounded-3xl  w-full lg:w-[50vh]">
         <div className="flex items-center justify-center h-20 bg-[#181818] rounded-t-3xl mb-4">
             <h2 className="text-2xl text-white font-semibold">Voting</h2>
         </div>
@@ -16,7 +16,7 @@ const VCheck = () => {
             <label htmlFor="check1" className=' text-xs lg:text-lg text-[#555555] font-semibold'>All Favor</label>
             <Checkbox id="ripple-off" className="border-[#00bcd4] bg-[#FFFFFF]" color="cyan" style={{ transform: 'scale(1.2)' }} />
             <label htmlFor="check2" className=' text-xs lg:text-lg text-[#555555] font-semibold'>All Against</label>
-            <Checkbox id="ripple-off" className="border-[#00bcd4] bg-[#FFFFFF]" color="cyan" style={{ transform: 'scale(1.2)' }} />
+            <Checkbox id="ripple-off" className="border-[#6F6F6F] bg-[#FFFFFF]" color="gray" style={{ transform: 'scale(1.2)' }} />
             <label htmlFor="check2" className='text-xs lg:text-lg text-[#555555] font-semibold'>All Abstain</label>
         </div>
         <div className="relative mx-4 flex items-center justify-center mt-4">

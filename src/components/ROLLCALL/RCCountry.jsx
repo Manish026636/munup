@@ -3,13 +3,13 @@ import { Checkbox } from "@material-tailwind/react";
 
 const RCCountry = () => {
   const tableData = [
-    { imageUrl: "india.png", label: "INDIA", id: "present1",id2: "pnv1" },
+    { imageUrl: "india.png", label: "India", id: "present1",id2: "pnv1" },
     { imageUrl: "usa.png", label: "USA", id: "present2" ,id2: "pnv2"},
-    { imageUrl: "russia.png", label: "RUSSIA", id: "present3",id2: "pnv3" },
-    { imageUrl: "australlia.png", label: "AUSTRALLIA", id: "present4",id2: "pnv4" },
-    { imageUrl: "france.png", label: "FRANCE", id: "present5" ,id2: "pnv5"},
-    { imageUrl: "germany.png", label: "GERMANY", id: "present6",id2: "pnv6" },
-    { imageUrl: "russia.png", label: "RUSSIA", id: "present7" ,id2: "pnv7"},
+    { imageUrl: "russia.png", label: "Russia", id: "present3",id2: "pnv3" },
+    { imageUrl: "australlia.png", label: "Australlia", id: "present4",id2: "pnv4" },
+    { imageUrl: "france.png", label: "France", id: "present5" ,id2: "pnv5"},
+    { imageUrl: "germany.png", label: "Germany", id: "present6",id2: "pnv6" },
+    { imageUrl: "russia.png", label: "Russia", id: "present7" ,id2: "pnv7"},
   ];
 
   return (
