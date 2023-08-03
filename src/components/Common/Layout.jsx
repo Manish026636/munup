@@ -4,7 +4,7 @@ import MCDashboard from '../MCAUS/MCDashboard';
 import RCDashboard from '../ROLLCALL/RCDashboard';
 import MDashboard from '../MCAUS/Motion/MDashboard';
 import VDashboard from '../MCAUS/Voting/VDashboard';
-
+import MotionDash from '../Common/Motion/MotionDash';
 const Table = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -135,7 +135,7 @@ const Table = () => {
             <div className="flex  p-4 sm:ml-64">
                 <div className="   rounded-lg  mt-16">
                     
-                <RCDashboard/>                    
+                <MDashboard/>                    
                     
                 </div>
             </div>

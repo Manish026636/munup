@@ -3,7 +3,7 @@ import React from "react";
 const MForm = () => {
   return (
     <>
-      <div className="bg-white   pb-4  shadow-lg rounded-3xl  w-full lg:w-[50vh] ">
+      <div className="bg-white hover:bg-[#f4f4f4]   pb-4  shadow-lg rounded-3xl  w-full lg:w-[50vh] ">
         <div className="flex items-center justify-center h-20 bg-[#181818] rounded-t-3xl mb-4">
           <h2 className="text-2xl text-white font-semibold">Motion Form</h2>
         </div>
@@ -58,7 +58,7 @@ const MForm = () => {
                 for="base-input"
                 class="block mb-2 text-md font-bold text-[#555555] dark:text-white"
               >
-                Delegate Time
+                Del Time
               </label>
               <input
                 type="number"
