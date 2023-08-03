@@ -4,7 +4,7 @@ import MCSearch from './MCSearch'
 import AddModal from './AddDelegate/AddModal'
 const MCDashboard = () => {
     return (
-        <div className='mx-28 gslhead'>
+        <div className=' gslhead'>
             <div className="flex flex-wrap gap-8 mt-6 mx-6 ">
                 <div className="w-full  bg-[#E7EBEA] h-48 rounded-xl ">
 

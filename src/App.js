@@ -9,7 +9,7 @@ import RCDashboard from './components/ROLLCALL/RCDashboard';
 import MRegister from './components/MCAUS/Motion/MRegister';
 import MDashboard from './components/MCAUS/Motion/MDashboard';
 import VDashboard from './components/MCAUS/Voting/VDashboard';
-import Layout from './components/Common/Layout';
+import Layout from './components/Common/Layout/Layout';
 function App() {
   return (
     
