@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import SidebarCommit from '../SidebarCommit';
-import MCDashboard from '../../MCAUS/MCDashboard';
-import RCDashboard from '../../ROLLCALL/RCDashboard';
-import MDashboard from '../../MCAUS/Motion/MDashboard';
-import VDashboard from '../../MCAUS/Voting/VDashboard';
-import Table from '../../Common/Table';
-import GSLDashboard from '../../GSL/GSLDashboard';
+import SidebarCommit from './SidebarCommit';
+import MCDashboard from '../MCAUS/MCDashboard';
+import RCDashboard from '../ROLLCALL/RCDashboard';
+import MDashboard from '../MCAUS/Motion/MDashboard';
+import VDashboard from '../MCAUS/Voting/VDashboard';
+import GSLDashboard from '../GSL/GSLDashboard';
 const Layout = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -157,9 +156,9 @@ const Layout = () => {
             </aside>
 
             <div className="flex  p-4 sm:ml-64 ">
-                <div className="   rounded-lg  mt-16">
+                <div className="   rounded-lg  mt-10">
 
-                    <MDashboard />
+                    <GSLDashboard />
 
                 </div>
             </div>

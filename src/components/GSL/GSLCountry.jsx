@@ -69,7 +69,7 @@ const GSLCountry = () => {
   ];
 
   return (
-    <div className="overflow-y-auto  scrollbar-hide max-h-[500px] shadow-md sm:rounded-lg">
+    <div className="overflow-y-auto w-[140vh]  scrollbar-hide max-h-[500px] shadow-md sm:rounded-lg">
       <table className="w-full  text-sm text-left text-[#414141]">
         <thead className="text-lg sticky top-0  bg-[#343434] text-white">
           <tr>
