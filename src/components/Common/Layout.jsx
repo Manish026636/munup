@@ -5,6 +5,7 @@ import RCDashboard from '../ROLLCALL/RCDashboard';
 import MDashboard from '../MCAUS/Motion/MDashboard';
 import VDashboard from '../MCAUS/Voting/VDashboard';
 import GSLDashboard from '../GSL/GSLDashboard';
+import Alerts from './Alerts';
 const Layout = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -156,9 +157,9 @@ const Layout = () => {
             </aside>
 
             <div className="flex  p-4 sm:ml-64 ">
-                <div className="   rounded-lg  mt-10">
+                <div className="   rounded-lg  mt-20">
 
-                    <GSLDashboard />
+                    <Alerts/>
 
                 </div>
             </div>

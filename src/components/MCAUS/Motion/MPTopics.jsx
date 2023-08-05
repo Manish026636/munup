@@ -34,7 +34,7 @@ const TopicCard = ({ imageSrc, proposedBy, topicName, totalTime, delegateTime })
 const RollCallResult = () => {
     return (
         <div className="bg-white overflow-hidden overflow-y-auto scrollbar-hide h-[80vh] pb-4 shadow-lg rounded-3xl w-full lg:w-[50vh]">
-            <div className="flex sticky top-0 items-center justify-center h-20 bg-[#181818] rounded-t-3xl mb-4">
+            <div className="flex sticky top-0 items-center justify-center h-20 bg-[#3C4048] rounded-t-3xl mb-4">
                 <h2 className="text-2xl text-white font-semibold">Proposed Topics</h2>
             </div>
 

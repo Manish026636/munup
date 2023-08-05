@@ -4,7 +4,7 @@ const RollCallResult = () => {
   return (
     <>
     <div className="bg-white pb-4  shadow-lg rounded-3xl w-full  lg:w-[50vh]">
-    <div className="flex items-center justify-center h-20 bg-[#181818] rounded-t-3xl mb-4">
+    <div className="flex items-center justify-center h-20 bg-[#3C4048] rounded-t-3xl mb-4">
         <h2 className="text-2xl text-white font-semibold">Roll Call Result</h2>
     </div>
 
